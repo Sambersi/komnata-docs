@@ -1,0 +1,6 @@
+extends: substitution
+message: "Предпочтительно «%s» вместо «%s»."
+level: warning
+ignorecase: true
+swap:
+  депло[йя][а-яё]*: публикация
