@@ -32,7 +32,9 @@ jobs:
           curl -fsSL "$URL/v$V/vale_${V}_Linux_64-bit.tar.gz" | tar xz vale
           ./vale docs
 
-      - run: mkdocs build --strict
+      - name: Строгая сборка MkDocs
+        if: always()
+        run: mkdocs build --strict
 
       - uses: actions/upload-pages-artifact@v5   # упаковать папку site/ как артефакт сборки
         with:
