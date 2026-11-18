@@ -252,5 +252,9 @@ MkDocs подходит текущему небольшому komnata; для А
 Факты о komnata взяты только из файлов учебного проекта; веб-источники использованы для объяснения инструментов.
 
 ### Фактический просмотр reStructuredText на GitHub
-Открыта страница compare/configuration.rst в ветке compare-markup. Заголовок, список, таблица, YAML и примечание отрисованы; строка :doc:`usage` показана буквально, без междокументной ссылки. Это наблюдение по HTML GitHub, а не предположение. [Зелёная проверка PR №3](https://github.com/Sambersi/komnata-docs/actions/runs/44393015409).
+Открыта страница compare/configuration.rst в ветке compare-markup.
+Заголовок, список, таблица, YAML и примечание отрисованы; строка :doc:usage показана буквально, без междокументной ссылки.
+Это наблюдение по HTML GitHub, а не предположение.
+[Зелёная проверка PR №3](https://github.com/Sambersi/komnata-docs/actions/runs/44393015409).
 
+Итоговый [PR №4](https://github.com/Sambersi/komnata-docs/pull/4) содержит отчёт, памятку защиты и локальные проверки.
