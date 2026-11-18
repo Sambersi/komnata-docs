@@ -1,0 +1,6 @@
+#!/bin/sh
+# Local paths are configured per checkout and never committed.
+python_cmd=$(git config docs.python || printf '%s' python)
+vale_cmd=$(git config docs.vale || printf '%s' vale)
+"$vale_cmd" docs || exit 1
+"$python_cmd" -m mkdocs build --strict || exit 1
