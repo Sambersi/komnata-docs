@@ -8,6 +8,8 @@ nav:                            # меню сайта: подпись -> фай�
   - Установка: install.md
   - Настройка: configuration.md
   - Работа с сервисом: usage.md
+  - Проверка конфигурации: check-config.md
+  - Решение проблем: troubleshooting.md
   - Вопросы и ответы: faq.md
 
 theme:
