@@ -1,6 +1,6 @@
-# Как показать лабораторную на другом компьютере
+# Показ лабы
 
-## Что открыть заранее
+## Что открыть
 
 - [Готовый сайт komnata 2.0](https://sambersi.github.io/komnata-docs/).
 - [Репозиторий и файлы](https://github.com/Sambersi/komnata-docs).
